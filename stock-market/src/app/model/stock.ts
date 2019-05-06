@@ -3,8 +3,7 @@ export class Stock {
     constructor(public name:string,
                 public code:string,
                 public price:number,
-                public previousprice:number,
-                public favorite:boolean
+                public previousprice:number
     ){}
     isPositiveChange ():boolean{return this.price>=this.previousprice;}
 }
